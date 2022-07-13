@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+body {
+    background: linear-gradient(#2C3156, #1b1a33);
+    overflow-y: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.logo {
+    width: 170px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+section{
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.section__text {
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+
+.section__text h1 {
+    font-size: 5rem;
+    margin-top: 10px;
+    text-shadow: 3px 0 red,
+        -3px 0 red,
+        0 3px red,
+        0 -3px red,
+        2px 2px red,
+        -2px -2px red,
+        2px -2px red,
+        -2px 2px red;
+}
+.section__text p{
+    font-size: 20px;
+    margin: 30px 0;
+    font-weight: 400;
+    text-align: left;
+}
+.section__text div{
+    text-align: left;
+}
+.section__text div button{
+    font-size: 22px;
+    color: white;
+    border: none;
+    background-color: transparent;
+    margin-right: 30px;
+    font-weight: 300;
+}
+.section__text div button i{
+    font-size: 38px;
+    margin-right: 10px;
+}
+.section__text div button:first-child{
+    display: inline-flex;
+    align-items: center;
+}
+.section__text div button:last-child{
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 20px;
+}
+.section__img{
+    position: absolute;
+    right: -50px;
+    bottom: -40px;
+}
+.section__img img{
+    width: 750px;
+}
